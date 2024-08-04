@@ -38,7 +38,7 @@
 
   /** Gradient colors */
   --gradient-1: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%);
-  --gradient-2: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea);
+  --gradient-2: linear-gradient(90deg, #4580ff, #256bff 51%, #276af8);
   --gradient-3: linear-gradient(0deg, #000d1a, transparent);
 
   /** Border colors */
