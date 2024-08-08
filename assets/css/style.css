@@ -22,10 +22,10 @@
 
   /** Background colors */
   --bg-wild-blue-yonder: hsla(216, 33%, 68%, 1);
-  --bg-carolina-blue: hsla(199, 89%, 49%, 1);
-  --bg-prussian-blue: hsla(216, 33%, 20%, 1);
-  --bg-oxford-blue: hsla(222, 44%, 13%, 1);
-  --bg-oxford-blue-2: hsla(222, 47%, 11%, 1);
+  --bg-carolina-blue: hsl(269, 89%, 49%);
+  --bg-prussian-blue: hsl(226, 33%, 20%);
+  --bg-oxford-blue: hsl(262, 75%, 17%);
+  --bg-oxford-blue-2: hsl(262, 78%, 19%);
 
   /** Text colors */
   --text-white: hsla(0, 0%, 100%, 1);
@@ -37,13 +37,13 @@
   --text-slate-gray: hsla(217, 17%, 48%, 1);
 
   /** Gradient colors */
-  --gradient-1: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%);
-  --gradient-2: linear-gradient(90deg, #4580ff, #256bff 51%, #276af8);
+  --gradient-1: linear-gradient(90deg, #6745ff, #4c2ae5 51%);
+  --gradient-2: linear-gradient(90deg, #6745ff, #6e25ff 51%, #7427f8);
   --gradient-3: linear-gradient(0deg, #000d1a, transparent);
 
   /** Border colors */
   --border-wild-blue-yonder: hsla(216, 33%, 68%, 1);
-  --border-prussian-blue: hsla(216, 33%, 20%, 1);
+  --border-prussian-blue: hsl(262, 75%, 16%);
   --border-white: hsl(0, 0%, 100%);
   --border-white-alpha-15: hsla(0, 0%, 100%, 0.15);
 
@@ -84,7 +84,7 @@
    */
 
   --shadow-1: 0 8px 20px 0 hsla(0, 0%, 0%, 0.05);
-  --shadow-2: 0px 3px 20px hsla(180, 90%, 43%, 0.2);
+  --shadow-2: 0px 3px 20px hsla(267, 90%, 43%, 0.2);
 
   /**
    * BORDER RADIUS
