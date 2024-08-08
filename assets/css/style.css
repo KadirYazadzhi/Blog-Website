@@ -971,7 +971,10 @@ body.nav-active { overflow: hidden; }
   z-index: 4;
 }
 
-.back-top-btn:is(:hover, :focus-visible) { box-shadow: var(--shadow-2); }
+.back-top-btn:is(:hover, :focus-visible) {
+  box-shadow: var(--shadow-2);
+  background-color: var(--bg-carolina-blue);
+}
 
 .back-top-btn.active {
   visibility: visible;
