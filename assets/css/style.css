@@ -216,7 +216,13 @@ body.nav-active { overflow: hidden; }
   gap: 10px;
 }
 
-.profile-card .profile-banner { border-radius: var(--radius-circle); }
+.profile-card .profile-banner {
+  border-radius: var(--radius-circle);
+}
+
+.profile-card .profile-banner:hover {
+  cursor: pointer;
+}
 
 .headline {
   color: var(--text-columbia-blue);
@@ -621,7 +627,14 @@ body.nav-active { overflow: hidden; }
 
 .feature .profile-card :is(.card-title, .card-subtitle) { color: var(--text-slate-gray); }
 
-.feature .profile-card .card-title { font-weight: var(--weight-bold); }
+.feature .profile-card .card-title {
+  font-weight: var(--weight-bold);
+}
+
+.feature .profile-card .card-title:hover {
+  color: var(--text-carolina-blue);
+  cursor: pointer;
+}
 
 .feature .profile-card .card-subtitle,
 .feature .card-wrapper .card-btn { font-size: var(--fontSize-6); }
@@ -655,6 +668,7 @@ body.nav-active { overflow: hidden; }
   height: 48px;
   border-radius: 30px;
   left: -20px;
+  background-color: #2b0c60;
 }
 
 .feature .btn {
