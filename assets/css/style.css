@@ -647,6 +647,14 @@ body.nav-active { overflow: hidden; }
   background-color: var(--bg-oxford-blue-2);
   border-radius: var(--radius-circle);
   z-index: -1;
+  transition: ease-in-out 0.4s;
+}
+
+.feature .card-wrapper .card-btn:hover::before {
+  width: 110px;
+  height: 48px;
+  border-radius: 30px;
+  left: -20px;
 }
 
 .feature .btn {
