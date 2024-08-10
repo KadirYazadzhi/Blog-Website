@@ -1297,7 +1297,9 @@ body.nav-active { overflow: hidden; }
    * REUSED STYLE
    */
 
-  .container { max-width: 1140px; }
+  .container {
+    max-width: 1250px;
+  }
 
   body.nav-active { overflow-y: overlay; }
 
