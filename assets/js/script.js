@@ -1,11 +1,5 @@
 'use strict';
 
-
-
-/**
- * Add event listener on multiple elements
- */
-
 const addEventOnElements = function (elements, eventType, callback) {
   for (let i = 0, len = elements.length; i < len; i++) {
     elements[i].addEventListener(eventType, callback);
@@ -13,10 +7,6 @@ const addEventOnElements = function (elements, eventType, callback) {
 }
 
 
-
-/**
- * MOBILE NAVBAR TOGGLER
- */
 
 const navbar = document.querySelector("[data-navbar]");
 const navTogglers = document.querySelectorAll("[data-nav-toggler]");
@@ -30,10 +20,9 @@ addEventOnElements(navTogglers, "click", toggleNav);
 
 
 
-/**
- * HEADER ANIMATION
- * When scrolled donw to 100px header will be active
- */
+
+
+
 
 const header = document.querySelector("[data-header]");
 const backTopBtn = document.querySelector("[data-back-top-btn]");
@@ -50,9 +39,8 @@ window.addEventListener("scroll", () => {
 
 
 
-/**
- * SLIDER
- */
+
+
 
 const slider = document.querySelector("[data-slider]");
 const sliderContainer = document.querySelector("[data-slider-container]");
@@ -68,9 +56,9 @@ const moveSliderItem = function () {
   sliderContainer.style.transform = `translateX(-${sliderContainer.children[currentSlidePos].offsetLeft}px)`;
 }
 
-/**
- * NEXT SLIDE
- */
+
+
+
 
 const slideNext = function () {
   const slideEnd = currentSlidePos >= totalSlidableItems;
@@ -86,9 +74,9 @@ const slideNext = function () {
 
 sliderNextBtn.addEventListener("click", slideNext);
 
-/**
- * PREVIOUS SLIDE
- */
+
+
+
 
 const slidePrev = function () {
   if (currentSlidePos <= 0) {
@@ -102,9 +90,9 @@ const slidePrev = function () {
 
 sliderPrevBtn.addEventListener("click", slidePrev);
 
-/**
- * RESPONSIVE
- */
+
+
+
 window.addEventListener("resize", function () {
   totalSliderVisibleItems = Number(getComputedStyle(slider).getPropertyValue("--slider-items"));
   totalSlidableItems = sliderContainer.childElementCount - totalSliderVisibleItems;
