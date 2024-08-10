@@ -1,5 +1,5 @@
 <h1 align="center">
-  Template for Portfolio Website<br/>
+  Template for Blog Website<br/>
   <a href="https://kadiryazadzhi.github.io/portfolio/" target="_blank">KadirYazadzhi</a>
 </h1>
 <div align="center">
@@ -30,14 +30,14 @@
 </h3>
 
 ## 📖 Introduction
-I created a Template for a Portfolio Website that allows users to showcase their work and skills in a professional manner. The template features a clean, modern design and is fully responsive, ensuring it looks great on all devices. It includes sections for projects, skills, and contact information, making it easy for users to present their portfolio effectively.
+I created a Template for a Personal Blog Website that allows users to share their thoughts, ideas, and experiences in a stylish and organized way. The template features a clean, modern design and is fully responsive, ensuring it looks great on any device. It includes sections for blog posts, an about me page, and social media links, making it easy for users to connect with their audience and showcase their content effectively.
 
 
-## ✨Why do you need a portfolio? ☝️
+## ✨Why do you need a Blog Website? ☝️
 
-- Professional way to showcase your work
-- Increases your visibility and online presence
-- Shows you’re more than just a resume
+- Share knowledge and ideas widely
+- Build personal brand and connect
+- Showcase expertise and boost presence
 
 
 ## 🔨 Built With
@@ -50,9 +50,9 @@ This project was built using these technologies:
 
 ## 📚 Sections
 - Home
-- About
-- Skills
-- Portfolio
+- Topics
+- Featured Post
+- Recent Post
 - Contact
 
 
@@ -61,11 +61,7 @@ This project was built using these technologies:
 
 **🎨 Modern UI Design + Reveal Animations** <br>
 
-**☀️  Light and Dark Mode Theme** <br>
-
 **📱 Fully Responsive** <br>
-
-**🌍 Multi Language version**
 
 
 ## ⚙️ Getting Started
