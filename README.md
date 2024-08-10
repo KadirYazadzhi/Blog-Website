@@ -3,7 +3,7 @@
   <a href="https://kadiryazadzhi.github.io/portfolio/" target="_blank">KadirYazadzhi</a>
 </h1>
 <div align="center">
-  <img alt="Demo" src="template-preview-2.png" />
+  <img alt="Demo" src="preview-image-blog-website.png" />
 </div>
 
 <br/>
