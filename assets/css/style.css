@@ -416,7 +416,7 @@ body.nav-active {
 }
 
 .hero {
-  padding-block-start: calc(var(--section-padding) + 160px);
+  padding-block-start: calc(var(--section-padding) + 50px);
 }
 
 .hero .container {
@@ -1210,4 +1210,8 @@ body.nav-active {
     padding-inline: 120px;
   }
 
+}
+
+.profile-card img {
+  border-radius: 50%;
 }
